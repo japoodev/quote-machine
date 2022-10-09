@@ -1,10 +1,5 @@
 import React from 'react'
 
-// Intialize newQuote and author state
-
-// Fetch a new quote with author from the API and store it in state
-
-// create a list of black shades
 const shades = [
   '#16a085',
   '#27ae60',
