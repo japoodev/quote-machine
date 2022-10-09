@@ -56,7 +56,7 @@ const App = () => {
         setQuote(data.content)
         setAuthor(data.author)
       })
-      setTimeout(setColor(Math.floor(Math.random() * shades.length)), 4000)
+      setColor(Math.floor(Math.random() * shades.length))
   }
   React.useEffect(newQuote, [])
   return (
